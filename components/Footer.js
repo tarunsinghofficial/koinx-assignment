@@ -48,7 +48,7 @@ function Footer() {
               size={40}
               className="hidden group-hover:block bg-white shadow-lg text-black rounded-full absolute left-0 top-[40%] -translate-y-[40%] opacity-50 hover:opacity-100 cursor-pointer z-10"
             />
-            <div id={"slider" + rowId1} className="flex flex-row overflow-x-auto scroll-hide">
+            <div id={"slider" + rowId1} className="flex flex-row overflow-x-auto scroll-hide gap-3">
               {trendingCoins.map((coin, index) => (
                 <CommonSmallCard
                   key={index}
@@ -75,7 +75,7 @@ function Footer() {
               size={40}
               className="hidden group-hover:block bg-white shadow-lg text-black rounded-full absolute left-0 top-[40%] -translate-y-[30%] opacity-50 hover:opacity-100 cursor-pointer z-10"
             />
-            <div id={"slider" + rowId2} className="flex flex-row overflow-x-auto scroll-hide">
+            <div id={"slider" + rowId2} className="flex flex-row overflow-x-auto scroll-hide gap-3">
               {trendingCoins.map((coin, index) => (
                 <CommonSmallCard
                   key={index}
