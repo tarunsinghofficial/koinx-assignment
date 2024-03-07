@@ -24,7 +24,7 @@ function HeroCard() {
   };
 
   return (
-    <div className='h-[45rem] w-auto lg:w-full bg-white rounded-lg p-6'>
+    <div className='h-[45rem] w-[40%] lg:w-full bg-white rounded-lg p-6'>
       <div className='flex item-center gap-5'>
         <Image src={btc} alt="btc-logo" width={500} height={500} className='w-auto' />
         <span className='bg-[#768396] text-white rounded-lg p-2 flex items-center'>Rank #1</span>
@@ -43,7 +43,7 @@ function HeroCard() {
             <p className='text-black font-bold' >₹ {bitcoinData.inr}</p>
           </div>
           <hr className='my-6' />
-          <div className='flex flex-row items-center justify-between'>
+          <div className='flex flex-col lg:flex-row items-center justify-between'>
             <p className='text-black font-semibold'>Bitcoin Price Chart (USD)</p>
             <div className='flex flex-row gap-2'>
               <span className='text-sm  font-semibold hover:cursor-pointer hover:bg-[#e2ecfe] hover:text-[#0052FE] text-[#14b079] rounded-lg p-1'>1H</span>

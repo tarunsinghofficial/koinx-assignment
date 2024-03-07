@@ -5,7 +5,7 @@ import btcHolding2 from "../assets/btc2.png"
 
 function About() {
   return (
-    <div className='h-auto w-auto lg:w-full bg-white rounded-lg p-6 space-y-4'>
+    <div className='h-auto w-[40%] lg:w-full bg-white rounded-lg p-6 space-y-4'>
       <h2 className='text-black text-2xl font-bold'>About Bitcoin</h2>
       <div className='space-y-4'>
         <h2 className="text-black text-xl font-bold">What is Bitcoin?</h2>
@@ -19,18 +19,18 @@ function About() {
         <div className='space-y-6'>
           <h2 className="text-black text-xl font-bold">Already holding Bitcoin?</h2>
           {/* Images */}
-          <div className='flex flex-row items-center justify-center gap-10'>
+          <div className='flex flex-col lg:flex-row items-center justify-center gap-10'>
             <div className='w-full h-auto flex flex-row gap-5 bg-gradient-to-r from-[#79F1A4] to-[#0E5CAD] rounded-lg p-4'>
               <Image src={btcHolding1} className='w-auto h-auto rounded-lg' width={500} height={500} alt='btc-holding' />
               <div className='flex flex-col items-start justify-center gap-2'>
-                <h2 className="text-white font-bold text-2xl w-40">Calculate your profits</h2>
+                <h2 className="text-white font-bold text-md lg:text-2xl text-wrap">Calculate your profits</h2>
                 <button className='bg-white rounded-lg px-4 py-2 text-black font-semibold'>Check now</button>
               </div>
             </div>
             <div className='w-full h-auto flex flex-row gap-5 bg-gradient-to-r from-[#FF9865] to-[#EF3031] rounded-lg p-4'>
               <Image src={btcHolding2} className='w-auto h-auto rounded-lg' width={500} height={500} alt='btc-holding' />
               <div className='flex flex-col items-start justify-center gap-2'>
-                <h2 className="text-white font-bold text-2xl w-56">Calculate your tax liability</h2>
+                <h2 className="text-white font-bold text-md lg:text-2xl text-wrap">Calculate your tax liability</h2>
                 <button className='bg-white rounded-lg px-4 py-2 text-black font-semibold'>Check now</button>
               </div>
             </div>

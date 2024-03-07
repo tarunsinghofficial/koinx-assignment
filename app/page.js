@@ -25,18 +25,18 @@ export default function Home() {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto p-5 lg:p-none">
       <div className='flex gap-1 items-center my-3'>
         <p className="text-black">Cryptocurrencies </p>
         <MdOutlineKeyboardDoubleArrowRight size={23} className='text-black' />
         <span className='font-semibold text-black'>Bitcoin</span>
       </div>
-      <div className="grid grid-cols-12 gap-6">
-        <div className="col-span-8 h-full w-full space-y-6">
+      <div className="grid grid-row-12 lg:grid-cols-12 gap-6">
+        <div className="row-span-8 lg:col-span-8 h-full w-full space-y-6">
           <HeroCard />
           <div>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-              <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+              <Tabs value={value} onChange={handleChange} aria-label="mui-tabs">
                 <Tab label="Overview" />
                 <Tab label="Fundamentals" />
                 <Tab label="News Insights" />
@@ -53,7 +53,7 @@ export default function Home() {
           <TokenomicsCard />
           <TeamCard />
         </div>
-        <div className="col-span-4 h-full w-full space-y-6">
+        <div className="row-span-4 lg:col-span-4 h-full w-full space-y-6">
           <PromoCard />
           <TrendingCoinCard />
         </div>

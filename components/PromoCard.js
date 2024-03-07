@@ -4,7 +4,7 @@ import promo from "../assets/promo.png"
 
 function PromoCard() {
   return (
-    <div className='h-[33rem] w-auto lg:w-full bg-[#0052FE] rounded-2xl p-10'>
+    <div className='h-auto lg:h-[33rem] w-[40%] lg:w-full bg-[#0052FE] rounded-2xl p-10'>
       <div className='flex flex-col items-center justify-evenly gap-5'>
         <div className='w-full max-w-md text-center space-y-5'>
           <h2 className="text-white text-3xl font-bold">Get Started with KoinX for FREE</h2>

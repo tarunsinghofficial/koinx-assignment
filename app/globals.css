@@ -26,3 +26,14 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scroll-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

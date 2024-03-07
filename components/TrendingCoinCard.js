@@ -23,7 +23,7 @@ function TrendingCoinCard() {
   };
 
   return (
-    <div className='h-[14rem] w-auto lg:w-full bg-white rounded-lg p-6'>
+    <div className='h-[14rem] w-[40%] lg:w-auto bg-white rounded-lg p-6'>
       <h2 className='text-black text-2xl font-bold'>Trending Coins (24h)</h2>
       <div>
         {trendingCoins.map((coin, index) => (
