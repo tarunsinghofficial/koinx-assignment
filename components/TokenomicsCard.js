@@ -4,7 +4,7 @@ import tokenomics from "../assets/tokenomics.png"
 
 function TokenomicsCard() {
   return (
-    <div className='h-auto w-[40%] lg:w-full bg-white rounded-lg p-6 space-y-4'>
+    <div className='h-auto w-full bg-white rounded-lg p-6 space-y-4'>
       <h2 className='text-black text-2xl font-bold'>Tokenomics</h2>
       <div className='space-y-4'>
         <h2 className="text-black text-lg font-semibold">Initial Distribution</h2>

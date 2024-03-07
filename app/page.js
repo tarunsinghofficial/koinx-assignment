@@ -31,8 +31,8 @@ export default function Home() {
         <MdOutlineKeyboardDoubleArrowRight size={23} className='text-black' />
         <span className='font-semibold text-black'>Bitcoin</span>
       </div>
-      <div className="grid grid-row-12 lg:grid-cols-12 gap-6">
-        <div className="row-span-8 lg:col-span-8 h-full w-full space-y-6">
+      <div className="lg:flex gap-6 space-y-6">
+        <div className="h-full lg:w-[60%] space-y-6">
           <HeroCard />
           <div>
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -53,7 +53,7 @@ export default function Home() {
           <TokenomicsCard />
           <TeamCard />
         </div>
-        <div className="row-span-4 lg:col-span-4 h-full w-full space-y-6">
+        <div className="lg:w-[40%] h-full space-y-6">
           <PromoCard />
           <TrendingCoinCard />
         </div>

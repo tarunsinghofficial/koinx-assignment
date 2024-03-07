@@ -38,7 +38,7 @@ const fundamentalData = [
 
 function PerformanceCard() {
   return (
-    <div className='h-auto w-[40%] lg:w-full bg-white rounded-lg p-6 flex flex-col gap-10'>
+    <div className='h-auto w-full bg-white rounded-lg p-6 flex flex-col gap-10'>
       <h2 className='text-black text-2xl font-bold'>Performance</h2>
       <div className='space-y-10'>
         <div className='flex flex-col gap-6'>

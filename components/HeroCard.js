@@ -24,7 +24,7 @@ function HeroCard() {
   };
 
   return (
-    <div className='h-[45rem] w-[40%] lg:w-full bg-white rounded-lg p-6'>
+    <div className='h-[45rem] w-full bg-white rounded-lg p-6'>
       <div className='flex item-center gap-5'>
         <Image src={btc} alt="btc-logo" width={500} height={500} className='w-auto' />
         <span className='bg-[#768396] text-white rounded-lg p-2 flex items-center'>Rank #1</span>

@@ -5,7 +5,7 @@ import btcHolding2 from "../assets/btc2.png"
 
 function About() {
   return (
-    <div className='h-auto w-[40%] lg:w-full bg-white rounded-lg p-6 space-y-4'>
+    <div className='h-auto w-full bg-white rounded-lg p-6 space-y-4'>
       <h2 className='text-black text-2xl font-bold'>About Bitcoin</h2>
       <div className='space-y-4'>
         <h2 className="text-black text-xl font-bold">What is Bitcoin?</h2>

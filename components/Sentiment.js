@@ -7,7 +7,7 @@ import sentimentAnalysis from "../assets/sentimentAnalysis.png"
 
 function Sentiment() {
     return (
-        <div className='h-[37rem] w-[40%] lg:w-full bg-white rounded-lg p-6 space-y-3'>
+        <div className='h-[37rem] w-full bg-white rounded-lg p-6 space-y-3'>
             <h2 className='text-black text-2xl font-bold'>Sentiment</h2>
             <div className='space-y-3'>
                 <div className='flex flex-col gap-3'>

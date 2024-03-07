@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 function TeamCard() {
     return (
-        <div className='h-auto w-[40%] lg:w-full bg-white rounded-lg p-6 space-y-4'>
+        <div className='h-auto w-full bg-white rounded-lg p-6 space-y-4'>
             <h2 className='text-black text-2xl font-bold'>Team</h2>
             <div className='space-y-4'>
                 <p className='text-black'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam vitae et optio dolorum officia deserunt commodi eaque unde perspiciatis quae!</p>
